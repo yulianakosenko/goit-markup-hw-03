@@ -326,10 +326,8 @@ img {
 .portfolio-item {
   width: 360px;
   height: 420px;
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
+  border: 1px solid #e7e9fc;
   border-top: none;
-  border-right: 1px solid #e7e9fc;
   border-radius: 4px;
   background-color: #ffffff;
   overflow: hidden;
