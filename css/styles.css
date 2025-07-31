@@ -78,6 +78,7 @@ img {
   color: #4d5ae5;
   padding: 24px 0;
   padding-right: 149px;
+  margin-right: 76px
   
 }
 /*Navigation */
@@ -175,20 +176,22 @@ img {
 }
 
 .hero-button {
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 169px;
+  height: 56px;
   background-color: #4d5ae5;
   color: #ffffff;
   border: none;
   border-radius: 4px;
+  padding: 16px 32px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  /*transition: color 250ms ease;*/ 
-  padding: 16px 32px;
-  min-width: 169px;
-  height: 56px;
    
 }
 
@@ -301,10 +304,13 @@ img {
 }
 
 .portfolio-title {
-  font-size: 36px;
   text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
   margin-bottom: 72px;
-  
 }
 
 .portfolio-list {
@@ -313,9 +319,12 @@ img {
   gap: 24px;
   list-style: none;
   padding: 0;
+  margin: 0;
   justify-items: center;
   flex-wrap: wrap;
   row-gap: 48px;  
+  line-height: 1.11;
+  letter-spacing: 0.02em;
 
 }
 .portfolio-item {
@@ -323,6 +332,7 @@ img {
   height: 420px;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
+  border-top: none;
   border-right: 1px solid #e7e9fc;
   border-radius: 4px;
   background-color: #ffffff;
@@ -335,6 +345,7 @@ img {
 .portfolio-text {
   padding: 32px 16px;
   text-align: left;
+  border-top: none;
 }
 
 .portfolio-name {
