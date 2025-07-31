@@ -304,6 +304,7 @@ img {
   font-size: 36px;
   text-align: center;
   margin-bottom: 72px;
+  
 }
 
 .portfolio-list {
@@ -356,7 +357,7 @@ img {
   padding: 100px 0
 }
 
-.logo {
+.footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -366,7 +367,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  display: inline-block;
+  display: inline-block;  
 }
   
 .footer-logo-accent {
